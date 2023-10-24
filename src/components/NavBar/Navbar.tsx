@@ -3,7 +3,7 @@ import { useState } from "react";
 import Logo from "../Logo";
 import ItemsNavbar from "./ItemsNavbar";
 import ResponsiveMenu from "./ResponsiveMenu";
-import ItemsNavbarResponsive from "../ItemsNavbarResponsive";
+import ItemsNavbarResponsive from "./ItemsNavbarResponsive";
 
 
 export default function NavBar() {
@@ -24,7 +24,7 @@ export default function NavBar() {
                 </div>
             </div>
             {isOpen && (
-                <div className="w-full bg-zinc-950/10 h-80 pt-10 transition-all">
+                <div className="w-full bg-zinc-950/10 h-80 pt-10 transition-all md:hidden lg:hidden">
                     <ItemsNavbarResponsive />
                 </div>
             )}

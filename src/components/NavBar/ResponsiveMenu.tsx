@@ -26,9 +26,6 @@ export default function ResponsiveMenu(props: ResponsiveMenuProps) {
                     <path d="M17.5 6.5L6.5 17.5" stroke="#C026D3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                 </svg>
             }
-
-
-
         </div>
     )
 }
