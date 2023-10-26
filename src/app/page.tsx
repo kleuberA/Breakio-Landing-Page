@@ -1,4 +1,5 @@
 import Footer from '@/components/footer/Footer';
+import FourSection from '@/components/FourSection/FourSection';
 import MainSection from '@/components/mainSection/MainSection';
 import NavBar from '@/components/NavBar/Navbar';
 import SecondSection from '@/components/SecondSection/SecondSection';
@@ -19,6 +20,9 @@ export default function Home() {
         </div>
         <div>
           <ThirdSection />
+        </div>
+        <div>
+          <FourSection />
         </div>
         <div>
           <Footer />
