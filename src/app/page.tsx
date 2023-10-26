@@ -1,6 +1,8 @@
+import Footer from '@/components/footer/Footer';
 import MainSection from '@/components/mainSection/MainSection';
 import NavBar from '@/components/NavBar/Navbar';
 import SecondSection from '@/components/SecondSection/SecondSection';
+import ThirdSection from '@/components/ThirdSection/ThirdSection';
 
 export default function Home() {
   return (
@@ -14,6 +16,12 @@ export default function Home() {
         </div>
         <div>
           <SecondSection />
+        </div>
+        <div>
+          <ThirdSection />
+        </div>
+        <div>
+          <Footer />
         </div>
       </div>
     </div>
