@@ -1,3 +1,4 @@
+import FiveSection from '@/components/fiveSection/FiveSection';
 import Footer from '@/components/footer/Footer';
 import FourSection from '@/components/FourSection/FourSection';
 import MainSection from '@/components/mainSection/MainSection';
@@ -23,6 +24,9 @@ export default function Home() {
         </div>
         <div>
           <FourSection />
+        </div>
+        <div>
+          <FiveSection />
         </div>
         <div>
           <Footer />
